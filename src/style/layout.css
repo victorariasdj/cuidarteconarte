@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    /* background-color: #1b6a65; */
+}
+
+li {
+    margin-bottom: 8px;
+}

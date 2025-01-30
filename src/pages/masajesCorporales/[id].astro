@@ -1,0 +1,134 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, render } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import BotonContactame from "../../components/BotonContactame.astro";
+
+// import GalleryProps from "../../components/Gallery-Props.astro";
+
+export async function getStaticPaths() {
+    const masajesCorporales = await getCollection("masajesCorporales");
+
+    return masajesCorporales.map((masajesCorporales)=>({
+        params: { id: masajesCorporales.slug },
+        props: { masajesCorporales }
+    }))
+}
+
+const { masajesCorporales } = Astro.props
+const { data } = masajesCorporales
+const { title, img, precio, descripcion, videoId, keywords } = data
+const galeria = masajesCorporales.data.galeria;
+const { Content } = await render(masajesCorporales)
+---
+
+<Layout title={title} description={descripcion} image={img} keywords?={keywords}>
+    <div class="background">
+
+    </div>
+    <div class="contenedor">
+        <div class="titulo">
+            <img transition:name={`img-${masajesCorporales.slug}`} src={img} alt={title}>
+            <h1 transition:name={`title-${masajesCorporales.slug}`}>{title}</h1>
+            <!-- <p>{descripcion}</p> -->
+        </div>
+        <div class="descripcion">            
+            <Content />
+            <BotonContactame />
+            <div class="precios">
+                {precio.map(item => (
+                  <h2>{item}€</h2>
+                ))}
+              </div>
+            <!-- <GalleryProps images={galeria} /> -->
+
+        </div>
+    </div>
+    <lite-youtube videoid={videoId}></lite-youtube>
+
+</Layout>
+
+<style>
+
+    h1{
+        color:#1b6a65;
+        }
+
+
+    .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 12px;
+        font-size: 20px;
+        justify-content:center;
+        align-items: center;
+        margin: 4px;
+        /* text-align: center; */
+        /* background-image: url(/src/assets/135_5_Cuidarte-min.jpg);
+        background-size: cover; */
+        
+
+    }
+
+    .precios {
+        margin: 16px 0;
+    }
+
+    .precios h2 {
+        margin: 0 0 8px;
+    }
+
+    main {
+
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .titulo img{
+        max-width: auto;
+        height: 230px;
+    }
+
+    .descripcion{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        background-color: #fff;
+        font-weight: 500;
+        margin: 16px 20px;
+        
+        /* justify-content: center; */
+    }
+
+    lite-youtube {
+        width: 50%;
+    }
+    
+    @media screen and (max-width: 1270px) {
+        
+        .titulo img{
+        max-width: 340px;
+        height: 230px;
+        object-fit: cover;
+        }
+        
+        .descripcion{
+        max-width: 100%;
+        padding: 16px;
+
+        };
+
+    }
+
+    lite-youtube {
+        width: 100%;
+    }
+
+
+
+    
+    
+</style>

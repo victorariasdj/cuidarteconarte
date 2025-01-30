@@ -1,5 +1,5 @@
 {
-  "name": "starry-star",
+  "name": "cuidarteconarte-triana",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,6 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource-variable/raleway": "^5.1.1",
+    "@fontsource/architects-daughter": "^5.1.1",
     "astro": "^5.1.4"
   }
 }

@@ -1,0 +1,62 @@
+---
+import BotonContactame from "../components/BotonContactame.astro";
+import Redes from "../components/navbar/Redes.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Contacto">
+    <div class="contenedor">
+        <div class="texto">
+            <h2>Tel: 618 90 56 38</h2>
+            <h2>cuidarteconarte@gmail.com</h2>
+            <h2>Calle Garcilaso De La Vega 24 Triana</h2>
+            <BotonContactame />
+            <h2>Sevilla - España.</h2>
+        </div>
+        <img src="/src/assets/contacto.jpg" />
+    </div>
+</Layout>
+
+<style>
+
+    .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: right; */
+        align-items: center;
+        height: 100vh;
+    }
+
+    .texto {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        gap: 12px;
+        margin-left: 55px;
+    }    
+
+    h2{
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        text-align:left;
+
+    }
+
+    @media (max-width: 1270px){
+        .contenedor {
+            height: 100%;
+            justify-content: center;
+        }
+
+        .texto {
+            justify-content: center;
+            margin-left: 12px;
+        }
+        
+        img {
+            height: 300px;
+        }
+    }
+</style>
