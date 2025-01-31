@@ -11,7 +11,6 @@ const {title, description, image, keywords} = Astro.props;
 import { ClientRouter } from "astro:transitions";
 import Navbar from "../components/navbar/Navbar.astro";
 import '@fontsource-variable/raleway';
-import "../style/Layout.css";
 ---
 
 
@@ -20,6 +19,7 @@ import "../style/Layout.css";
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/style/Layout.css">
 		<link rel="icon" type="image/svg+xml" href="/src/assets/logo3.png" />
 		<meta name="generator" content={Astro.generator} />
 		<meta property="og:title" content={title}>
