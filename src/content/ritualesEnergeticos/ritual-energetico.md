@@ -4,7 +4,7 @@ title: Ritual Energético
 categoria: "Energético - Chamanico"
 precio:
   - "80"
-img: /src/assets/ritual-energetico.webp
+img: https://pq3x25ml42o3gq7vcl53u3jmwkopougzefm5p5d2xujcqgn65joq.arweave.net/fDd9dYvmnbND9RL7um0sspz3UNkhWdf0er0SKBm-6l0
 descripcion: Este ritual delicadamente diseñado, trabaja sobre los puntos energéticos clave del cuerpo, buscando restaurar el flujo vital que muchas veces se ve bloqueado por las tensiones del día a día.
 videoId: ""
 keywords: bienestar, relajacion, masaje, terapia, tratamiento relajante, descanso, insomnio, estres, paz, sensitivo, suave, energizacion, terapeutico, alineacion de chakras, energetico

@@ -6,7 +6,7 @@ precio:
   - Sesión individual 60
   - Bono 5 sesiones 275
   - Bono 10 sesiones 500
-img: /src/assets/madera.webp
+img: https://yf5hligiaxlzqgplwhf2ovvenmbhtjwwo23mqc3meecdros7sofa.arweave.net/wXp1oMgF15gZ67HLp1akawJ5ptZ2tsgLbCEEOLpfk4o
 descripcion: Tratamiento específico para ayudar a drenar todas las toxinas que se van acumulando en nuestro cuerpo a causa de malos hábitos alimenticios, del consumo de medicamentos, del tabaco etc.
 videoId: ""
 keywords: detoxificación, drenar toxinas, desintoxicación, inflamación, limpieza orgánica, equilibrio, vitalidad, celulitis, retención de liquidos, piel de naranja, edema

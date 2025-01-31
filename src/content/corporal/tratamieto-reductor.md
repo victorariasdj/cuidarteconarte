@@ -5,7 +5,7 @@ categoria: "Ritual de Belleza"
 precio:  
   - "Consultar precio "
 
-img: /src/assets/reductor.webp
+img: https://snracngjif4ze7bcsz633ybtabv2tdwwkew5lmj3eocwk4jf7hoa.arweave.net/k2IBNMlBeZJ8IpZ9veAzAGupjtZRLdWxOyOFZXEl-dw
 descripcion: En CuidarteConArte, entendemos que el bienestar corporal y emocional van de la mano.
 videoId: ""
 keywords: equilibrio, vitalidad, masaje, bienestar, activación circulatoria, grasas, toxinas, obesidad, elasticidad, firmeza, tono muscular, tonificante, elastina, colágeno, reafirmante, perdida de peso. tratamiento reductor

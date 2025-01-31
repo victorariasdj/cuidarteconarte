@@ -6,7 +6,7 @@ precio:
   - "Sesion individual 45" 
   - "Bono de 5 sesiones 200" 
   - "Bono de 10 sesiones 350"
-img: /src/assets/hidratante.jpg
+img: https://hpxvhtu5eo6rnr7yeq4vnciblhexpviyct27pxjmqq4i6rhamlpq.arweave.net/O-9Tzp0jvRbH-CQ5VokBWcl31RgU9ffdLIQ4j0TgYt8
 descripcion: Limpiar la piel diariamente y aplicar cremas hidratantes o sueros durante el día, así como cremas nutritivas o aceites regeneradores por la noche, nos aseguramos de mantener la piel saludable, elástica y resplandeciente
 videoId: ""
 keywords: piel seca, piel deshidratada, alteración cutánea, arrugas, ácido hialurónico, bienestar de la piel, suavidad piel, restauración de la piel, rejuvenecimiento

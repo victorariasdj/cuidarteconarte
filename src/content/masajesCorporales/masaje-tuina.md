@@ -4,7 +4,7 @@ title: Tui-Na - El Arte de Restaurar la Armonía a Través del Toque Milenario
 categoria: "Masaje terapeutico"
 precio:
   - Sesión individual 70
-img: /src/assets/tuina.webp
+img: https://qudbvw6teqknjgsxayq6mg4pklzceyhba3x5o5s4arssrv24yj7a.arweave.net/hQYa29MkFNSaVwYh5huPUvIiYOEG79d2XARlKNdcwn4
 descripcion: En sintonía con la filosofía de cuidArteconArte, el Tuina no es un simple masaje, sino una experiencia integral
 videoId: ""
 keywords: bienestar, relajacion, masaje, terapia, musculatura, tratamiento muscular, descanso, insomnio, estres, cansancio, contracturas, energetico, terapia china, revitalizacion

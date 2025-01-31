@@ -6,7 +6,7 @@ precio:
   - "Sesion 60" 
   - "Bono de 5 sesiones 275"
   - "Bono de 10 sesiones 450"
-img: /src/assets/drenaje-linfatico.webp
+img: https://cbxfk35fn6wzng5i2wwg2ip2ecuvlltnrmynxcvayd545llzulka.arweave.net/EG5Vb6VvrZabqNWsbSH6IKlVrm2LMNuKoMD7zq15otQ
 descripcion: Contribuye a la eliminación de los líquidos, grasas y toxinas que generan celulitis, edemas y linfedemas, y al tratamiento de trastornos venosos, como las varices. 
 videoId: ""
 keywords: equilibrio, vitalidad, masaje, dlm, bienestar, desinflamación, gánglios, linfa, linfático, cirugia estética, desintoxicación, activación circulatoria, edema, linfedemas, trastornos venosos, varice, lipoedemas, postoperatorios, articulaciones, grasas, toxinas, obesidad.

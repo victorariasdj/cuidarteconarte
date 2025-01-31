@@ -4,7 +4,7 @@ title: Dúo
 categoria: "Ritual de Belleza" 
 precio: 
   - "70"
-img: /src/assets/duo.webp
+img: https://goe7qajuqum4ctqkk2qmesbmaliz76tyuz7hq3drs6hbuvwkajla.arweave.net/M4n4ATSFGcFOClagwkgsAtGf-nimfnhscZeOGlbKAlY
 descripcion: higiene facial +  lifting japones KOBIDO.
 videoId: ""
 keywords: detoxificación, drenar toxinas, desintoxicación, inflamación, limpieza facial, equilibrio, vitalidad, retención de liquidos, flacidez, lineas de expresion, tersura, lifting, rostro luminoso, rostro suave, rostro sin arrugas, juventud de la piel, tratmiento facial, rejuvenecimiento

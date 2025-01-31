@@ -5,7 +5,7 @@ categoria: "Masaje Terapéutico"
 precio:
   - Sesión individual 60
   - Bono de 5 sesiones 225
-img: /src/assets/shiatsu.webp
+img: https://wfyqmbm6ytdyek5j6tw3x7v6x4alehcvpiinjcde2tsjjyxpytxq.arweave.net/sXEGBZ7Ex4IrqfTtu_6-vwCyHFV6ENSIZNTklOLvxO8
 descripcion: El masaje Shiatsu es una danza silenciosa entre el terapeuta y la energía vital de quien lo recibe.
 videoId: ""
 keywords: bienestar, relajacion, masaje, terapia, musculatura, tratamiento muscular, descanso, insomnio, estres, cansancio, contracturas, energetico, terapia china

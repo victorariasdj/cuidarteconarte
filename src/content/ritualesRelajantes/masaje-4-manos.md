@@ -4,7 +4,7 @@ title: Masaje Relajantes 4 Manos
 categoria: "Ritual relajante"
 precio:
   - "120"
-img: /src/assets/masaje-4-manos.webp
+img: https://efq6gqtl2q2tlq4pvwwwsm372g7sgi2vdpcvajhyqrzo6pdfluka.arweave.net/IWHjQmvUNTXDj62taTN_0b8jI1UbxVAk-IRy7zxlXRQ
 descripcion: Así es el masaje a cuatro manos, una experiencia única y envolvente, diseñada para que te sumerjas en un océano de calma y bienestar.
 videoId: ""
 keywords: masaje a 4 manos, belleza, bienestar, relajacion, masaje, terapia, musculatura, tratamiento relajante, descanso, insomnio, estres, paz, sensitivo, suave

@@ -4,7 +4,7 @@ title: Higiene Facial Con Espátula Ultrasonica
 categoria: "Ritual de Belleza" 
 precio: 
   - "55"
-img: /src/assets/espatula-ultrasonic.jpg
+img: https://v7lmmalmfu34ddvczxcoimwcaygcta4vni65isamaov4qsescaeq.arweave.net/r9bGAWwtN8GOos3E5DLCBgwpg5VqPdRIDAOryEiSEAk
 descripcion: Combina la precisión tecnológica con el cuidado de la piel.
 videoId: ""
 keywords: piel seca, piel deshidratada, alteración cutánea, arrugas, ácido hialurónico, bienestar de la piel, suavidad piel, restauración de la piel, piel con comedones, exfoliación, piel sucial, celulas muertas, rejuvenecimiento

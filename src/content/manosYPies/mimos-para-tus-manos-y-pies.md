@@ -4,7 +4,7 @@ title: Mimos para Tus Manos y Pies
 categoria: "Ritual de belleza"
 precio:
   - Sesión individual 60
-img: /src/assets/manos-y-pies-ritual.webp
+img: https://xfds7ziktvakj2spd5ok6svd75bzgevaha6lkredrnl7xmqb2kea.arweave.net/uUcv5QqdQKTqTx9cr0qj_0OTEqA4PLVEg4tX-7IB0og
 descripcion: Tus manos y pies son los aliados silenciosos que te acompañan en cada paso y cada acción.
 videoId: ""
 keywords: ritual, belleza, bienestar, relajacion, exfoliacion, tratamiento manos y pies, manicura, pedicura, hidratacion

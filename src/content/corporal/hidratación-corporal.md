@@ -4,7 +4,7 @@ title: Hidratación Corporal - Suavidad, Tersura y Belleza para Tu Piel
 categoria: "Ritual de belleza corporal"
 precio: 
   - "60"
-img: /src/assets/hidratacion.webp
+img: https://pc4tbch2jfwzuiin2qouhetxqyyztppsahzkwvwbdbnu3mhpipeq.arweave.net/eLkwiPpJbZohDdQdQ5J3hjGZvfIB8qtWwRhbTbDvQ8k
 descripcion: Tratamiento específico para ayudar a drenar todas las toxinas que se van acumulando en nuestro cuerpo a causa de malos hábitos alimenticios, del consumo de medicamentos, del tabaco etc.
 videoId: ""
 keywords: limpieza, equilibrio, vitalidad, celulitis, piel seca, células muertas, suavidad, hidratación, luminosidad, ritula de belleza, verano

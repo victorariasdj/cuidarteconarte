@@ -6,7 +6,7 @@ precio:
   - "Sesion individual 50"
   - "Bono de 5 sesiones 225" 
   - "Bono de 10 sesiones 400"
-img: /src/assets/reafirmante.webp
+img: https://x5yihjxuoivzifmmr4qxykswvlketeln6nflp2rl6a6dg35q4zvq.arweave.net/v3CDpvRyK5QVjI8hfCpWqtRJkW3zSrfqK_A8M2-w5ms
 descripcion: Diseñado para satisfacer las necesidades únicas de tu piel. 
 videoId: ""
 keywords: piel seca, piel deshidratada, alteración cutánea, arrugas, ácido hialurónico, bienestar de la piel, suavidad piel, restauración de la piel, piel con comedones, exfoliación, piel sucial, celulas muertas, piel grasa, piel envejecida, envejecimiento cutáneo, envejecimiento actinico, manchas, piel sensible, luminosidad, rejuvenecimiento, lifting manual, tensor, masajes facial, masaje japones, flacidez, tratamiento para el doble menton, tratamiento papada

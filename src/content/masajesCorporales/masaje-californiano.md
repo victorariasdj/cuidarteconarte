@@ -4,7 +4,7 @@ title: Masaje Californiano - El Abrazo de la Serenidad
 categoria: "Masaje terapeutico"
 precio:
   - Sesión individual 55
-img: /src/assets/californiano2.webp
+img: https://e45spzsyxzhw3uvuu7nohbdjxressuquwwq2rdabs6fzvr5qjwqq.arweave.net/Jzsn5li-T23StKfa44RpvEkpUhS1oaiMAZeLmsewTaE
 descripcion: Es un acto de amor y conexión profunda con nuestro ser
 videoId: ""
 keywords: belleza, bienestar, relajacion, masaje, terapia, musculatura, tratamiento muscular, descanso, insomnio, estres

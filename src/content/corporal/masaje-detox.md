@@ -4,7 +4,7 @@ title: Masaje Detox
 categoria: "Ritual de belleza corporal"
 precio: 
   - "60"
-img: /src/assets/m-detox03.webp
+img: https://3no3bsaco6xf6yvhg7seef4x4s6mzdbxrkymzftacr4wdc56g3bq.arweave.net/212wyAJ3rl9ipzfkQheX5LzMjDeKsMyWYBR5YYu-NsM
 descripcion: Tratamiento específico para ayudar a drenar todas las toxinas que se van acumulando en nuestro cuerpo a causa de malos hábitos alimenticios, del consumo de medicamentos, del tabaco etc.
 videoId: ""
 keywords: detoxificación, drenar toxinas, desintoxicación, inflamación, limpieza orgánica, equilibrio, vitalidad

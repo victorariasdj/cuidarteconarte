@@ -6,7 +6,7 @@ precio:
   - "Sesion individual -> 50" 
   - "Bono de 5 sesiones -> 225" 
   - "Bono de 10 sesiones -> 400"
-img: /src/assets/antiarrugas.webp
+img: https://72gahm4rcs2kalottiquj3743c3w67vntjomgkfu7qfjym3czopq.arweave.net/_owDs5EUtKAt05ohRO_82Ldvfq2aXMMotPwKnDNiy58
 descripcion: Este tratamiento aporta vigor, suavidad, luminosidad y firmeza a la piel.
 videoId: ""
 keywords: detoxificación, drenar toxinas, desintoxicación, inflamación, limpieza orgánica, equilibrio, vitalidad, retención de liquidos, flacidez, lineas de expresion, tersura, lifting, rostro luminoso, rostro suave, rostro sin arrugas, juventud de la piel, tratmiento facial, rejuvenecimiento

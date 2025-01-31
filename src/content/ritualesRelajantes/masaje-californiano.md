@@ -4,7 +4,7 @@ title: Masaje Sensitivo con Plumas
 categoria: "Ritual relajante"
 precio:
   - "70"
-img: /src/assets/masaje-plumas-01.webp
+img: https://jqima33jg7upswtk7bolk6ja6jnubgxslxvgrc24ofkwgypgravq.arweave.net/TBDAb2k36PlaavhctXkg8ltAmvJd6miLXHFVY2HmiCs
 descripcion: Este masaje holístico invita al cuerpo y la mente a rendirse ante el placer de la calma.
 videoId: ""
 keywords: belleza, bienestar, relajacion, masaje, terapia, musculatura, tratamiento relajante, descanso, insomnio, estres, paz, sensitivo, suave

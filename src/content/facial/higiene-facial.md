@@ -4,7 +4,7 @@ title: Higiene Facial
 categoria: "Ritual de Belleza" 
 precio: 
 - "50"
-img: /src/assets/higiene-facial.webp
+img: https://rvao4uwook73ydehg4dvkgwgr6w3jctmq7725v7ws7egj3zsggqa.arweave.net/jUDuUs5yv7wMhzcHVRrGj620imyH_67X9pfIZO8yMaA
 descripcion: se presenta como un proceso transformador que lleva a una piel más lozana, juvenil y saludable, eliminando impurezas y células muertas acumuladas.
 videoId: ""
 keywords: piel seca, piel deshidratada, alteración cutánea, arrugas, ácido hialurónico, bienestar de la piel, suavidad piel, restauración de la piel, piel con comedones, exfoliación, piel sucial, celulas muertas, piel grasa, piel envejecida, envejecimiento cutáneo, envejecimiento actinico, manchas, piel sensible, rejuvenecimiento

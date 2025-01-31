@@ -4,7 +4,7 @@ title: Holistic Detox
 categoria: "Tratamiento"
 precio: 
   - "Para más información contáctanos "
-img: /src/assets/holistic-detox2.webp
+img: https://6anbzw6likzx6jxt7gopicygodcpugr5g7e6xaq2phf3dpcjrjhq.arweave.net/8Boc28tCs38m8_mc9AsGcMT6Gj03yeuCGnnLsbxJik8
 descripcion: El innovador tratamiento Holistic Detox, diseñado para desintoxicar, purificar y revitalizar tu cuerpo de manera efectiva y armoniosa.
 videoId: ""
 keywords: limpieza, equilibrio, vitalidad, celulitis, todo tipo de piel, suavidad, hidratación, luminosidad, ritula de belleza, revitalización, desintoxicación, detoxificación, purificación, piel manchada, agotamiento, estres, cansancio

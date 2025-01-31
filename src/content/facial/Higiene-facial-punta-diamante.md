@@ -4,7 +4,7 @@ title: Higiene Facial Con Punta De Diamante
 categoria: "Ritual de Belleza" 
 precio: 
   - "70"
-img: /src/assets/punta-diamante.webp
+img: https://t5xkftzfcpb6iwfj6t2tc7ezzbeixcjivdjfurxr3t5hefngcm5a.arweave.net/n26izyUTw-RYqfT1MXyZyEiLiSio0lpG8dz6chWmEzo
 descripcion: tratamiento facial único con nuestra punta de diamante.
 videoId: ""
 keywords: piel seca, piel deshidratada, alteración cutánea, arrugas, ácido hialurónico, bienestar de la piel, suavidad piel, restauración de la piel, piel con comedones, exfoliación, piel sucial, celulas muertas, piel grasa, piel envejecida, envejecimiento cutáneo, envejecimiento actinico, manchas, rejuvenecimiento

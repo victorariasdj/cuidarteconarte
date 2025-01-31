@@ -4,7 +4,7 @@ title: Masaje Para Desconectar del Estrés
 categoria: "Ritual relajante"
 precio:
   - "60"
-img: /src/assets/masaje-desconectar-del-estres.webp
+img: https://fzogeutrgdgydymmrtktk4cxum5pjodu5aqgtpbhrsy4d6itlheq.arweave.net/LlxiUnEwzYHhjIzVNXBXozr0uHToIGm8J4yxwfkTWck
 descripcion: Este ritual te invita experimentar un masaje sublime, relajante, que trasciende lo físico para reconectar con la calma.
 videoId: ""
 keywords: belleza, bienestar, relajacion, masaje, terapia, musculatura, tratamiento relajante, descanso, insomnio, estres, paz, sensitivo, suave

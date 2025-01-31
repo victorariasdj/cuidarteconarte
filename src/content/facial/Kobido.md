@@ -4,7 +4,7 @@ title: Kobido
 categoria: "Ritual de Belleza" 
 precio: 
   - "65"
-img: /src/assets/kobido.webp
+img: https://idgdufi2fqcr7i42af5f66twuceyq5g7ydujaszadklmq6if7rxq.arweave.net/QMw6FRosBR-jmgF6X3p2oImIdN_A6JBLIBqWyHkF_G8
 descripcion: Son técnicas de la medicina tradicional japonesa que combinan movimientos rápidos, suaves y profundos, 
 videoId: ""
 keywords: piel seca, piel deshidratada, alteración cutánea, arrugas, ácido hialurónico, bienestar de la piel, suavidad piel, restauración de la piel, piel con comedones, exfoliación, piel sucial, celulas muertas, piel grasa, piel envejecida, envejecimiento cutáneo, envejecimiento actinico, manchas, piel sensible, luminosidad, rejuvenecimiento, lifting manual, tensor, masajes facial, masaje japones

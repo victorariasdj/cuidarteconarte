@@ -4,7 +4,7 @@ title: Beauty Life Coach
 categoria: "Acompañamiento hacia una mejor versión de ti misma"
 precio:
   - "Consultar precio " 
-img: /src/assets/beauty-life-coach.webp
+img: https://ahf44oxup2s2gefff5qtgfkddihivbhppc2iqu6oiylv4oqzmwxq.arweave.net/AcvOOvR-paMQpS9hMxVDGg6KhO94tIhTzkYXXjoZZa8
 descripcion: No se trata solo de transformarte, sino de reconciliarte con el espejo. De la mano de una Beauty Life Coach, aprenderás que la belleza no es una prisión de estereotipos, sino un camino de amor propio, aceptación y libertad.
 videoId: ""
 keywords: rituales de belleza, rituales de relajación, neuroemoción, acompañamiento, rituales energéticos, nutricionista, guia alimentaria, ejercicio físico, masajes, asesoramiento de imagen, neurolingüística, tratamientos faciales, tratamientos corporales

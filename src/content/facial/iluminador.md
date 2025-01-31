@@ -6,7 +6,7 @@ precio:
   - "Sesion individual -> 50"
   - "Bono de 5 sesiones -> 225" 
   - "Bono de 10 sesiones -> 400"
-img: /src/assets/iluminador.webp
+img: https://edgcck6i23cwysxewgj22qocckh6kbatiifzlwplyfw7qxwbdi7a.arweave.net/IMwhK8jWxWxK5LGTrUHCEo_lBBNCC5XZ68Ft-F7BGj4
 descripcion: Nuestro enfoque especializado en iluminar tu rostro. Utilizando productos de alta calidad y técnicas avanzadas, trabajamos para eliminar la opacidad y promover un brillo saludable.
 videoId: ""
 keywords: piel seca, piel deshidratada, alteración cutánea, arrugas, ácido hialurónico, bienestar de la piel, suavidad piel, restauración de la piel, piel con comedones, exfoliación, piel sucial, celulas muertas, piel grasa, piel envejecida, envejecimiento cutáneo, envejecimiento actinico, manchas, piel sensible, luminosidad, rejuvenecimiento

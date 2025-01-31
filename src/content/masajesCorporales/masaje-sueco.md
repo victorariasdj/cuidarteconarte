@@ -5,7 +5,7 @@ categoria: "Masaje terapeutico"
 precio:
   - Sesión individual 60
   - Bono de 5 sesiones 250
-img: /src/assets/masaje-sueco.webp
+img: https://ye2ehui24polacbsicddydwsjrc5ycw7p2guplgvt4lfezchpaka.arweave.net/wTRD0Rrj3LAIMkCGPA7STEXcCt9-jUes1Z8WUmRHeBQ
 descripcion: es una invitación al equilibrio entre cuerpo y mente, una herramienta que nos conecta con el poder curativo del contacto consciente
 videoId: ""
 keywords: belleza, bienestar, relajacion, masaje, terapia, musculatura, tratamiento muscular, descanso, insomnio, estres, revitalizacion, energetico, contracturas

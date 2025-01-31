@@ -6,7 +6,7 @@ precio:
   - "Sesión individual 55"
   - "(Bono) 5 sesiones 250" 
   - "(Bono) 10 sesiones 450"
-img: /src/assets/flacidez.webp
+img: https://uxddkuwx2rcevvikgjnjxwwkfnizglki2wtiicpnggqbjcgdulmq.arweave.net/pcY1UtfURErVCjJam9rKK1GTLUjVpoQJ7TGgFIjDotk
 descripcion: Tratamiento específico para ayudar a drenar todas las toxinas que se van acumulando en nuestro cuerpo a causa de malos hábitos alimenticios, del consumo de medicamentos, del tabaco etc.
 videoId: ""
 keywords: equilibrio, vitalidad, masaje, bienestar, cirugia estética, activación circulatoria, postoperatorios, grasas, toxinas, obesidad, elasticidad, firmeza, tono muscular, tonificante, elastina, colágeno, reafirmante, perdida de peso
