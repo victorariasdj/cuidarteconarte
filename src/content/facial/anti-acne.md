@@ -6,7 +6,7 @@ precio:
   - "Sesión individual 55"
   - "Bono de 5 sesiones 250" 
   - "Bono de 10 sesiones 450"
-img: /src/assets/anti-acne.webp
+img: https://oqnzdanakkbvcpmjhapvex7qw37mppntmqnptvsgqbvcq3424moa.arweave.net/dBuRgaBSg1E9iTgfUl_wtv7HvbNkGvnWRoBqKG-a4xw
 descripcion: Renovación y Equilibrio para tu Piel
 videoId: ""
 keywords: piel seca, piel deshidratada, alteración cutánea, arrugas, ácido salicílico, bienestar de la piel, suavidad piel, restauración de la piel, piel con comedones, exfoliación, piel sucial, celulas muertas, piel grasa, equilibrio, envejecimiento cutáneo, manchas, cicatrices, piel sensible, luminosidad, rejuvenecimiento, lifting manual, tensor, masajes facial, drenaje linfático manual, flacidez, acné
