@@ -21,11 +21,11 @@ Después de un masaje Detox, te sentirás más ligera/o, con menos inflamación 
 
 
 - Este masaje es la combinación de: drenaje linfático manual con masaje anticelulítico y el masaje revitalizante.
-- Se combina igualmente con la **Aplicación de la <a href = "/terapeuticos/corporal/hidrolinfa">Hidrolinfa**</a> <br><br>
+- Se combina igualmente con la **Aplicación de la <a href= "/masajesCorporales/hidrolinfa">Hidrolinfa**</a> <br><br>
 
 Si buscar un tratamiento más integral para purificar tu cuerpo, te invitamos a descubrir nuestro exclusivo **"Holistic Detox"**, diseñado especialmente para quienes desean recuperar el equilibrio y la vitalidad.<br><br>
 
-Si deseas conocer más sobre este tratamiento ve al apartado <a href = "/terapeuticos/corporal/holistic-detox">**Holistic Detox**</a><br><br>
+Si deseas conocer más sobre este tratamiento ve al apartado <a href = "/corporal/holistic-detox/">**Holistic Detox**</a><br><br>
 <br><br>
 
 ### Beneficios <br><br>
