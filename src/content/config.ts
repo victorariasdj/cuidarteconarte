@@ -133,5 +133,24 @@ const experienciasDeLujo = defineCollection({
     }),
 });
 
+const talleres = defineCollection({
+    schema: z.object({
+        date: z.string(),
+        title: z.string(),
+        img: z.string(),
+        categoria: z.string().optional(),
+        precio: z.union([z.string(), z.array(z.string())]),
+        descripcion: z.string(),
+        videoId: z.string().optional(),
+        keywords: z.string().optional(),
+        galeria: z.array(
+            z.object({
+                src: z.string(),
+                alt: z.string(),
+            })
+        ),
+    }),
+});
+
 export const collections = { 
-    "corporal":corporal, "facial": facial, "manosYPies": manosYPies, "masajesCorporales": masajesCorporales, "ritualesRelajantes": ritualesRelajantes, "ritualesEnergeticos": ritualesEnergeticos, "experienciasDeLujo": experienciasDeLujo };
+    "corporal":corporal, "facial": facial, "manosYPies": manosYPies, "masajesCorporales": masajesCorporales, "ritualesRelajantes": ritualesRelajantes, "ritualesEnergeticos": ritualesEnergeticos, "experienciasDeLujo": experienciasDeLujo, "talleres": talleres };

@@ -1,0 +1,129 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, render } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import BotonContactame from "../../components/BotonContactame.astro";
+// import GalleryProps from "../../components/Gallery-Props.astro";
+
+export async function getStaticPaths() {
+    const talleres = await getCollection("talleres");
+
+    return talleres.map((talleres)=>({
+        params: { id: talleres.slug },
+        props: { talleres}
+    }))
+}
+
+const { talleres } = Astro.props
+const { data } = talleres
+const { title, img, precio, descripcion, videoId, keywords } = data
+const galeria = talleres.data.galeria;
+const { Content } = await render(talleres)
+---
+
+<Layout title={title} description={descripcion} image={img} keywords?={keywords}>
+    <div class="background">
+
+    </div>
+    <div class="contenedor">
+        <div class="titulo">
+            <img transition:name={`img-${talleres.slug}`} src={img} alt={title}>
+            <h1 transition:name={`title-${talleres.slug}`}>{title}</h1>
+            <!-- <p>{descripcion}</p> -->
+        </div>
+        <!-- <GalleryProps images={galeria} /> -->
+        <div class="descripcion">            
+            <Content />
+            <BotonContactame />
+            <div class="precios">
+                {precio.map(item => (
+                  <h2>{item}€</h2>
+                ))}
+              </div>
+        </div>
+    </div>
+    <!-- <lite-youtube videoid={videoId}></lite-youtube> -->
+
+</Layout>
+
+<style>
+
+    h1{
+      color:#1b6a65;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 12px;
+        font-size: 20px;
+        justify-content:center;
+        align-items: center;
+        margin: 14px;
+        /* text-align: center; */
+        /* background-image: url(/src/assets/135_5_Cuidarte-min.jpg);
+        background-size: cover; */
+        
+
+    }
+
+    .precios {
+        margin: 16px 0;
+    }
+
+    .precios h2 {
+        margin: 0 0 8px;
+    }
+
+    main {
+
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .titulo img{
+        width: auto;
+        height: 230px;
+    }
+
+    .descripcion{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 16px 40px;
+        background-color: #fff;
+        color: #061647;
+        font-weight: 500;
+        /* justify-content: center; */
+    }
+
+    /* lite-youtube {
+        width: 50%;
+    } */
+    
+    @media screen and (max-width: 1270px) {
+        
+        .titulo img{
+        max-width: 340px;
+        height: 230px;
+        object-fit: cover;
+        }
+        
+        .descripcion{
+        /* max-width: 100%; */
+        padding: 16px;
+
+        }
+
+    /* lite-youtube {
+        width: 100%;
+    } */
+
+
+}
+    
+    
+</style>
