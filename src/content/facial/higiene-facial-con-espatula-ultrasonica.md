@@ -3,7 +3,7 @@ date: "2025-01-06"
 title: Higiene Facial Con Espátula Ultrasonica
 categoria: "Ritual de Belleza" 
 precio: 
-  - "55"
+  - "60"
 img: https://v7lmmalmfu34ddvczxcoimwcaygcta4vni65isamaov4qsescaeq.arweave.net/r9bGAWwtN8GOos3E5DLCBgwpg5VqPdRIDAOryEiSEAk
 descripcion: Combina la precisión tecnológica con el cuidado de la piel.
 videoId: ""

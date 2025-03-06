@@ -11,6 +11,6 @@
   "dependencies": {
     "@fontsource-variable/raleway": "^5.1.1",
     "@fontsource/architects-daughter": "^5.1.1",
-    "astro": "^5.1.4"
+    "astro": "^5.4.2"
   }
 }

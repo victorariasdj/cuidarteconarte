@@ -3,7 +3,7 @@ date: "2025-01-09"
 title: Higiene Facial 
 categoria: "Ritual de Belleza" 
 precio: 
-- "50"
+- "55"
 img: https://rvao4uwook73ydehg4dvkgwgr6w3jctmq7725v7ws7egj3zsggqa.arweave.net/jUDuUs5yv7wMhzcHVRrGj620imyH_67X9pfIZO8yMaA
 descripcion: se presenta como un proceso transformador que lleva a una piel más lozana, juvenil y saludable, eliminando impurezas y células muertas acumuladas.
 videoId: ""
