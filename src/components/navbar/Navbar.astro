@@ -1,6 +1,5 @@
 ---
 import Redes from "./Redes.astro";
-
 ---
 
 <div class="contenedor">
@@ -10,13 +9,14 @@ import Redes from "./Redes.astro";
         <span></span>
     </label>
     <div class="logo">
-        <a class="nav-img" href="/"><img class="nav-img" src="https://ii2t745skrm4raclwo2rjclbaxmzgfg5zh3rp6caz3o3vwfrrv2a.arweave.net/QjU_87JUWciAS7O1FIlhBdmTFN3J9xf4QM7dutixjXQ" alt="Logo cuidArteconArte"></a>
-        <!-- <a class="nav-titulo" href="index"><strong>cuidArteconArte</strong></a> -->
+        <a class="nav-img" href="/">
+            <img class="nav-img" src="https://ii2t745skrm4raclwo2rjclbaxmzgfg5zh3rp6caz3o3vwfrrv2a.arweave.net/QjU_87JUWciAS7O1FIlhBdmTFN3J9xf4QM7dutixjXQ" alt="Logo cuidArteconArte">
+        </a>
     </div>
     
     <div class="navegacion">
         <a href="/">Inicio</a>
-        <a href="/conocenos">Conócenos  </a>
+        <a href="/conocenos">Conócenos</a>
         <a href="/estetica">Estética</a>
         <a href="/tratamientosTerapeuticos">Tratamientos Terapéuticos</a>
         <a href="/experiencias-de-lujo">Experiencias de Lujo</a>
@@ -28,7 +28,6 @@ import Redes from "./Redes.astro";
 </div>
 
 <style>
-
     .contenedor {
         display: flex;
         flex-direction: column;
@@ -40,7 +39,6 @@ import Redes from "./Redes.astro";
     }
 
     .nav-img {
-        
         width: 180px;
         object-fit: cover;
     }
@@ -54,9 +52,9 @@ import Redes from "./Redes.astro";
     }
 
     .navegacion a {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-decoration: none;
         list-style: none;
         color: #4f4f4f;
@@ -64,144 +62,145 @@ import Redes from "./Redes.astro";
     }
 
     .navegacion a:hover {
-      background-color: #ddb531;
+        background-color: #ddb531;
     }
 
     .burger {
         display: none;
     }
-    @media (max-width: 1270px){
 
-      .contenedor {
-        flex-direction: row;
-      }
+    @media (max-width: 1270px) {
+        .contenedor {
+            flex-direction: row;
+        }
 
         .navegacion {
-    display: none; /* Oculto por defecto */
-    position: absolute;
-    top: 0px; /* Ajusta según el diseño */
-    left: 0;
-    width: 100%;
-    background-color: white;
-    flex-direction: column;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    z-index: 10000;
-  }
+            display: none; /* Oculto por defecto */
+            position: absolute;
+            top: 0px; /* Ajusta según el diseño */
+            left: 0;
+            width: 100%;
+            background-color: white;
+            flex-direction: column;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            z-index: 10000;
+            -webkit-overflow-scrolling: touch; /* Mejora el desplazamiento en iOS */
+        }
 
-  .navegacion.active {
-    display: flex; /* Mostrar menú */
-    position: fixed;
-    margin-top: 60px;
-  }
+        .navegacion.active {
+            display: flex; /* Mostrar menú */
+            position: fixed; /* Cambiado a fixed para mejor compatibilidad */
+            margin-top: 60px;
+        }
 
-  .logo {
-    display: none;
-  }
+        .logo {
+            display: none;
+        }
 
         .burger {
-  position: relative;
-  width: 40px;
-  height: 30px;
-  background: transparent;
-  cursor: pointer;
-  display: block;
-  margin: 20px;
+            position: relative;
+            width: 40px;
+            height: 30px;
+            background: transparent;
+            cursor: pointer;
+            display: block;
+            margin: 20px;
+        }
 
-}
+        .burger span {
+            display: block;
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: #000;
+            border-radius: 9px;
+            opacity: 1;
+            left: 0;
+            transform: rotate(0deg);
+            transition: 0.25s ease-in-out;
+        }
 
-.burger span {
-  display: block;
-  position: absolute;
-  height: 4px;
-  width: 100%;
-  background: #000;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  transform: rotate(0deg);
-  transition: 0.25s ease-in-out;
-}
+        .burger span:nth-of-type(1) {
+            top: 0px;
+            transform-origin: left center;
+        }
 
-.burger span:nth-of-type(1) {
-  top: 0px;
-  transform-origin: left center;
-}
+        .burger span:nth-of-type(2) {
+            top: 50%;
+            transform: translateY(-50%);
+            transform-origin: left center;
+        }
 
-.burger span:nth-of-type(2) {
-  top: 50%;
-  transform: translateY(-50%);
-  transform-origin: left center;
-}
+        .burger span:nth-of-type(3) {
+            top: 100%;
+            transform-origin: left center;
+            transform: translateY(-100%);
+        }
 
-.burger span:nth-of-type(3) {
-  top: 100%;
-  transform-origin: left center;
-  transform: translateY(-100%);
-}
+        .burger.active span:nth-of-type(1) {
+            transform: rotate(45deg);
+            top: 0px;
+            left: 5px;
+        }
 
-.burger.active span:nth-of-type(1) {
-  transform: rotate(45deg);
-  top: 0px;
-  left: 5px;
-}
+        .burger.active span:nth-of-type(2) {
+            width: 0%;
+            opacity: 0;
+        }
 
-.burger.active span:nth-of-type(2) {
-  width: 0%;
-  opacity: 0;
-}
-
-.burger.active span:nth-of-type(3) {
-  transform: rotate(-45deg);
-  top: 28px;
-  left: 5px;
-}
-}
-
+        .burger.active span:nth-of-type(3) {
+            transform: rotate(-45deg);
+            top: 28px;
+            left: 5px;
+        }
+    }
 </style>
 
 <script>
-  const initBurgerMenu = () => {
-  const burger = document.querySelector('.burger');
-  const navegacion = document.querySelector('.navegacion');
+    const initBurgerMenu = () => {
+        const burger = document.querySelector('.burger');
+        const navegacion = document.querySelector('.navegacion');
 
-  if (!burger || !navegacion) return;
+        if (!burger || !navegacion) return;
 
-  // Remover eventos previos si existieran para evitar duplicados
-  burger.replaceWith(burger.cloneNode(true));
-  navegacion.replaceWith(navegacion.cloneNode(true));
+        // Remover eventos previos si existieran para evitar duplicados
+        burger.replaceWith(burger.cloneNode(true));
+        navegacion.replaceWith(navegacion.cloneNode(true));
 
-  // Obtener nuevamente los elementos
-  const newBurger = document.querySelector('.burger');
-  const newNavegacion = document.querySelector('.navegacion');
+        // Obtener nuevamente los elementos
+        const newBurger = document.querySelector('.burger');
+        const newNavegacion = document.querySelector('.navegacion');
 
-  // Función para alternar el menú
-  const toggleMenu = () => {
-    newBurger.classList.toggle('active');
-    newNavegacion.classList.toggle('active');
-  };
+        // Función para alternar el menú
+        const toggleMenu = (e) => {
+            e.preventDefault(); // Evita problemas en iOS con eventos táctiles
+            newBurger.classList.toggle('active');
+            newNavegacion.classList.toggle('active');
+        };
 
-  // Función para cerrar el menú al hacer clic fuera
-  const closeMenu = (event) => {
-    if (
-      !newBurger.contains(event.target) && // Clic fuera del botón hamburguesa
-      !newNavegacion.contains(event.target) // Clic fuera del menú
-    ) {
-      newBurger.classList.remove('active');
-      newNavegacion.classList.remove('active');
-    }
-  };
+        // Función para cerrar el menú al hacer clic fuera
+        const closeMenu = (event) => {
+            if (
+                !newBurger.contains(event.target) && // Clic fuera del botón hamburguesa
+                !newNavegacion.contains(event.target) // Clic fuera del menú
+            ) {
+                newBurger.classList.remove('active');
+                newNavegacion.classList.remove('active');
+            }
+        };
 
-  // Evento de clic en el botón hamburguesa
-  newBurger.addEventListener('click', toggleMenu);
+        // Evento de clic y toque en el botón hamburguesa
+        newBurger.addEventListener('click', toggleMenu);
+        newBurger.addEventListener('touchstart', toggleMenu); // Soporte para iOS
 
-  // Evento para cerrar el menú al hacer clic fuera de él
-  document.addEventListener('click', closeMenu);
-};
+        // Evento para cerrar el menú al hacer clic o tocar fuera
+        document.addEventListener('click', closeMenu);
+        document.addEventListener('touchstart', closeMenu); // Soporte para iOS
+    };
 
-// Escuchar los cambios de página usando el ClientRouter
-document.addEventListener('astro:page-load', initBurgerMenu);
+    // Escuchar los cambios de página usando el ClientRouter
+    document.addEventListener('astro:page-load', initBurgerMenu);
 
-// Ejecutar la función en la carga inicial
-document.addEventListener('DOMContentLoaded', initBurgerMenu);
-
+    // Ejecutar la función en la carga inicial
+    document.addEventListener('DOMContentLoaded', initBurgerMenu);
 </script>
