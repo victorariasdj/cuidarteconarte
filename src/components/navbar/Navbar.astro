@@ -122,13 +122,13 @@ import Redes from "./Redes.astro";
 
         // Función para togglear el menú
         function toggleMenu(event) {
-            event.stopPropagation(); // Evita que el clic/toque se propague al document
+            event.stopPropagation(); // Detiene la propagación al document
             navegacion.classList.toggle('active');
         }
 
         // Función para cerrar el menú al hacer clic fuera
         function closeMenu(event) {
-            if (!burger.contains(event.target) && !navegacion.contains(event.target)) {
+            if (!navegacion.contains(event.target) && !burger.contains(event.target)) {
                 navegacion.classList.remove('active');
             }
         }
@@ -137,14 +137,11 @@ import Redes from "./Redes.astro";
         burger.removeEventListener('click', toggleMenu);
         document.removeEventListener('click', closeMenu);
 
-        // Agregar eventos (solo click, touchstart causaba conflictos)
+        // Agregar eventos
         burger.addEventListener('click', toggleMenu);
         document.addEventListener('click', closeMenu);
     }
 
     // Ejecutar al cargar la página
     document.addEventListener('DOMContentLoaded', setupMenu);
-
-    // Si reactivas transiciones de Astro, descomenta esto:
-    // document.addEventListener('astro:page-load', setupMenu);
 </script>
